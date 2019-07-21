@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author Viet Quoc Tran vt on 2019-07-21. www.zeroexception.com
+ * @author Viet Quoc Tran on 2019-07-21. www.zeroexception.com
  */
 public class BinaryNumber {
 
