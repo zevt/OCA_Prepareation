@@ -17,8 +17,13 @@ public class BinaryNumber2 {
     int a = scanner.nextInt();
 
     List<Byte> binaryChars = new ArrayList<>();
-
-
+    while(a > 0) {
+    	binaryChars.add((byte)(a % 2));
+    	a /= 2;
+    }
+    for(int i = binaryChars.size() - 1; i >= 0; --i) {
+    	System.out.print(binaryChars.get(i));
+    }
   }
 
 }
