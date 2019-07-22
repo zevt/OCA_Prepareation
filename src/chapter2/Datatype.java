@@ -16,6 +16,11 @@ public class Datatype {
     System.out.print(" Input byte number b: ");
     byte b = scanner.nextByte();
 
+    byte c = (byte)(a +  b);
+
+    System.out.println("a + b = " + c);
+
+
 
   }
 
